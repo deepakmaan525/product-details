@@ -54,6 +54,7 @@ input {
     padding: 3px;
     border-radius: 2px;
     outline: unset !important;
+    user-select: none !important;
 }
 
 .b-line::after {
@@ -95,4 +96,21 @@ input {
 .related-products-card{
     border-radius: 17px;
     border: 1px solid rgba(0, 0, 0, 0.12);
+    padding-bottom: 30px;
 }
+.rotate-41{
+    transform: rotate(-41.689deg);   
+}
+.discount-position{
+    position: absolute;
+    top: 4%;
+    left: -9%;
+}
+.new-card{
+    border-radius: 0px 14px 0px 0px;
+    background: var(--grey);   
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+/* footer */

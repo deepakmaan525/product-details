@@ -96,6 +96,9 @@
 .bg-green{
     background-color: var(--green);
 }
+.bg-light-orange{
+    background-color: var(--light-orange);
+}
 
 /* font-size */
 
