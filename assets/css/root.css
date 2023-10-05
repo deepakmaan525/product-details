@@ -4,8 +4,9 @@
 
     --black:#000; 
     --light-black:#222; 
-    --light-black2:#181818; 
     --light-black1:#4d4d4d; 
+    --light-black2:#181818; 
+    --light-black3:#171717; 
     --grey: #555;
     --grey-2: #666;
     --dark-grey: #808082;
@@ -28,10 +29,10 @@
     --fs-m-sm:14px;
     --fs-l-sm:16px;
     --fs-s-md:18px;
-    --fs-m-md:20px;
+    --fs-m-md:14px;
     --fs-x-md:24px;
     --fs-s-lg:25px;
-    --fs-m-lg:30px;
+    --fs-m-lg:23px;
 }
 
 /* color */
@@ -125,4 +126,12 @@
 }
 .fs-m-lg{
     font-size: var(--fs-m-lg);
+}
+
+@media (min-width:576px) {
+    :root{
+        --fs-m-md:20px;
+        --fs-m-lg:30px;
+
+    }
 }
